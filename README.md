@@ -14,3 +14,4 @@ La aplicación Web cuenta con tres apartados principales:
 ![screencapture-localhost-Dona-html-registro-html-2022-08-10-16_00_03](https://user-images.githubusercontent.com/99307324/184023932-84f39675-0c39-4e0e-8dac-d7611551bb5e.png)
 °Stock, el cual se conecta al servidor y base de datos por medio del archivo conexión.php, para mostrar en una tabla toda la información recolectada en el apartado registro (registro.php) y por último permite actualizar un producto en específico (actualizar.php y update.php) o borrar un registro de la base de datos (borrar.php).
 ![screencapture-localhost-Dona-php-lista-php-2022-08-10-15_59_30](https://user-images.githubusercontent.com/99307324/184024185-79687626-520c-42a0-8eec-06550fdf9e86.png)
+![screencapture-localhost-Dona-php-actualizar-php-2022-08-10-16_01_07](https://user-images.githubusercontent.com/99307324/184024533-0693bf9b-64be-44f4-a8b2-2ca4497efdf8.png)

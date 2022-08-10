@@ -1,7 +1,7 @@
 # La dona de Pancha 
 
 Para el desarrollo de este proyecto, así como por las limitantes establecidas, se utilizaron 3 lenguajes:  PHP, CSS y HTML; así como de una base de datos funcional en phpMyAdmin.
-La base de datos contiene los elementos básicos para el control y registro de nuevos productos en una panadería. Un ID para identificar individualmente cada producto, nombre del producto, Precio unitario, cantidad disponible en el almacén (Stock) y el proveedor.
+La base de datos contiene los elementos básicos para el control y registro de nuevos productos en una panadería. Un ID para identificar individualmente a cada producto, nombre del producto, precio unitario, cantidad disponible en el almacén (Stock) y el proveedor.
 
 ![image](https://user-images.githubusercontent.com/99307324/184023730-8300a216-ce3d-4813-b8d9-c1cd11b3b172.png)
 

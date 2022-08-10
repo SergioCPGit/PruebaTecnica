@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Home</title>
+        <meta charset="UTF-8"/>
+        <link href="../css/registro.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav class="menu">
+                <ul>
+                    <li><a href="http://localhost/Dona/html/home.html">Home</a></li>
+                    <li><a  href="http://localhost/Dona/php/lista.php">Stock</a></li>
+                    <li><a class= "active" href="http://localhost/Dona/html/registro.html">Registro de producto</a></li>
+                </ul>
+              </nav>
+        </header>
+        <div class="form">
+            <form name="Registro" method="POST" action="/Dona/php/registro.php">
+            <h1>Datos del producto <h1><br>
+            Nombre:<br>
+                <input type="text" name="nombre" placeholder="Ingrese el nombre de su producto "  required><br>
+            Precio:<br>
+                <input type="text" name="precio" placeholder="Ingrese el precio de su producto" pattern="^[0-9]+(.[0-9]+)?$" required><br>
+            Número de unidades adquiridas:<br>
+                <input type="text" name="unidades" placeholder="Ingrese el número de unidades adquiridas de su producto" pattern="^[1-9]\d*$" required><br>
+            Proveedor:<br>
+                <input type="text" name="proveedor" placeholder="Ingrese el proveedor de su producto"  required><br>
+                <input type="submit" name="enviar" class="boton1" value="Registrar producto">
+                <input type="reset" class="boton2" value="Borrar">
+            
+            </form>
+        </div>
+
+    </body>
+</html>
